@@ -9,9 +9,9 @@ The aim was to thoroughly test the ARM Cortex M4 in various scenarios to assess 
 ## Evaluation and Methodology
 The evaluation process included:
 - Module 1: Comparison between assembly and C implementations.
-- Module 2: Hardware interfacing and functionality tests.
-- Module 3: Real-time operation with RTOS threads.
-- Module 4: Start-up code generation and comparison with STM Cube MX.
+- Module 2: Start-up code generation and comparison with STM Cube MX.
+- Module 3: Hardware interfacing and functionality tests.
+- Module 4: RTOS threads
 - Module 5: Debug monitor implementation and system benchmarking.
 - Module 6: Simulation of a flow meter using frequency detection algorithms in Simulink and implementation on the MCU.
 
