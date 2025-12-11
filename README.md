@@ -1,41 +1,49 @@
-# Project 1: Vortex Flow Meter
+# Project : QNX based VoIP Gateway Design Evaluation
 
 ## Executive Summary
-This project centers around the evaluation of the ARM Cortex M4's capabilities in creating a Vortex Flow Meter. Over six phases, we explored various aspects of embedded system architecture, including software development in C, hardware functionalities such as GPIO, ADC, and UART, RTOS thread management, auto configuration with STM Cube MX, and bare-metal flow meter simulation using MATLAB's Simulink.
+The project undertook the development and assessment of a VoIP Gateway on the Broadcom BCM2711 processor. From establishing a QNX build environment to booting QNX and scripting with Linux, each phase was meticulously executed. The successful implementation of a PBX system using Asterisk highlighted the processor's capability in telecom scenarios. Additionally, a Morse Code decoder and encoder application was developed, demonstrating the processor's robust performance in complex telecom tasks.
 
-## Objectives
-The aim was to thoroughly test the ARM Cortex M4 in various scenarios to assess its suitability for Vortex Flow Meter applications, focusing on hardware-software integration and performance across multiple programming environments.
+## Problem Statement and Objectives
+The project's aim was to assess the suitability of the Broadcom BCM2837 processor for VoIP applications by evaluating its hardware capabilities, software performance, and overall efficiency in real-time telecom tasks.
 
-## Evaluation and Methodology
-The evaluation process included:
-- Module 1: Comparison between assembly and C implementations.
-- Module 2: Start-up code generation and comparison with STM Cube MX.
-- Module 3: Hardware interfacing and functionality tests.
-- Module 4: RTOS threads
-- Module 5: Debug monitor implementation and system benchmarking.
-- Module 6: Simulation of a flow meter using frequency detection algorithms in Simulink and implementation on the MCU.
+## Approach and Methodology for Evaluation
+The methodology involved setting up various operating environments, creating a PBX system, developing telecom applications, and conducting extensive scripting to evaluate the processor's performance.
 
-## Test Results
-Each module underwent rigorous testing, providing insights into the system's robustness, adaptability, and efficiency in tasks ranging from simple GPIO manipulations to complex simulations involving real-time data processing.
+### Key Phases:
+- **Module 1:** Set up QNX SDP and momentics
+- **Module 2:** Boot QNX on Raspberry Pi 4 B.
+- **Module 3:** Script execution at startup in Linux for system monitoring.
+- **Module 4:** PBX system construction with Asterisk.
+- **Module 5:** Development of Iot application on QNX.
+- **Module 6:** Scripting on QNX
 
-## List of Deliverables
+
+## Module Test Results
+Each module's test results demonstrated the Broadcom processor's versatility and efficacy. With detailed DMIPS scores, the processor showcased its robust capabilities in various computational scenarios.
+
+## List of Project Deliverables
+The repository contains:
 - Source code for each module
-- Detailed test results and reports
-- Doxygen generated documentation
-- Schematics and wiring diagrams
+- Documentation of test results
+- Individual module reports
+- Block diagrams and flowcharts
+- BOM and project staffing details
 
-## Recommendations
-Following our extensive testing, we recommend the ARM Cortex m4 for future deployments in Vortex Flow Meter applications due to its efficient and robust performance in embedded system tasks.
+## Recommendations - GO
+Given its high performance and compatibility with diverse operating systems, the Broadcom BCM2837 processor is recommended for the development of VoIP gateways.
 
 ## Appendix
+- Detailed module test results
 - References
-- Frequently Asked Questions
-- Bill Of Materials (BOM)
-- Project Staffing
+- FAQs
+- BOM
+- Project Staffing information
 
 ## Authors
-- Nimish
-- Nimisha
+- Nimish 
 - Hannah
+- Nimisha
 
+## Additional Notes
+This README serves as an overview of the VoIP Gateway Design Evaluation project, hosting essential information for stakeholders and contributors to understand the project's scope, objectives, and outcomes. 
 
