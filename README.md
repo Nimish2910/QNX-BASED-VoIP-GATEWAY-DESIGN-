@@ -4,7 +4,7 @@
 This project centers around the evaluation of the ARM Cortex M4's capabilities in creating a Vortex Flow Meter. Over six phases, we explored various aspects of embedded system architecture, including software development in C, hardware functionalities such as GPIO, ADC, and UART, RTOS thread management, auto configuration with STM Cube MX, and bare-metal flow meter simulation using MATLAB's Simulink.
 
 ## Objectives
-The aim was to thoroughly test the STM32F401RE microcontroller in various scenarios to assess its suitability for Vortex Flow Meter applications, focusing on hardware-software integration and performance across multiple programming environments.
+The aim was to thoroughly test the ARM Cortex m4 in various scenarios to assess its suitability for Vortex Flow Meter applications, focusing on hardware-software integration and performance across multiple programming environments.
 
 ## Evaluation and Methodology
 The evaluation process included:
